@@ -11,46 +11,38 @@ import torch.nn as nn
 class watermarkCNN(nn.Module):
     def __init__(self):
         super(watermarkCNN, self).__init__()
-        self.layer1 = nn.Conv2d(3, 16, kernel_size=3, padding=1)
-        self.activation1 = nn.ReLU()
-        self.layer2 = nn.Conv2d(16, 32, kernel_size=3, padding=1)
-        self.activation2 = nn.ReLU()
-        self.maxPool1 = nn.MaxPool2d(2, stride=1)
-        self.layer3 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
-        self.activation3 = nn.ReLU()
-        self.batchNorm = nn.BatchNorm2d(64)
-        self.maxPool2 = nn.MaxPool2d(2, stride=2)
-        self.fc1 = nn.Linear(64*3*3 , 128)
-        self.activation4 = nn.ReLU()
-        self.dropout1 = nn.Dropout(p=0.25)
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, padding=1)
+        self.conv2 = nn.Conv2d(in_channels=16, out_channels=32, kernel_size=3, padding=1)
+        self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+        self.conv3 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1)
+        self.batchnorm = nn.BatchNorm2d(64)
+        
+        # AdaptiveAvgPool2d to adjust dimensions
+        self.avgpool = nn.AdaptiveAvgPool2d((8, 8))  
+        
+        self.fc1 = nn.Linear(64 * 8 * 8, 128)  
+        self.dropout1 = nn.Dropout(0.25)
         self.fc2 = nn.Linear(128, 256)
-        self.activation5 = nn.ReLU()
-        self.dropout2 = nn.Dropout(p=0.25)
-        self.output = nn.Linear(256, 2)
+        self.dropout2 = nn.Dropout(0.25)
+        self.fc3 = nn.Linear(256, 2)  
 
     def forward(self, x):
-        x = self.layer1(x)
-        x = self.activation1(x)
-        x = self.layer2(x)
-        x = self.activation2(x)
-        x = self.maxPool1(x)
-        x = self.layer3(x)
-        x = self.activation3(x)
-        x = self.batchNorm(x)
-        x = self.maxPool2(x)
-        #x = torch.flatten(x, 1)
-        x = x.view(-1, 64 * 3 * 3)
-        x = self.fc1(x)
-        x = self.activation4(x)
+        x = self.pool(torch.relu(self.conv1(x)))
+        x = self.pool(torch.relu(self.conv2(x)))
+        x = self.pool(torch.relu(self.conv3(x)))
+        x = self.batchnorm(x)
+        x = self.avgpool(x)
+        # Reshape for fully connected layers
+        x = x.view(-1, 64 * 8 * 8)  
+        x = torch.relu(self.fc1(x))
         x = self.dropout1(x)
-        x = self.fc2(x)
-        x = self.activation5(x)
+        x = torch.relu(self.fc2(x))
         x = self.dropout2(x)
-        x = self.output(x)
+        x = self.fc3(x)
         return x
 
 model = watermarkCNN().to(device)
 
-#Defining loss function and and optimizer
+#Defining loss function and optimizer
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.0001)

@@ -4,11 +4,10 @@ from torchvision import datasets, transforms
 
 #define transformations
 transform = transforms.Compose([
-    transforms.Resize((128, 128)),
+    transforms.Resize((64, 64)),
     transforms.ToTensor(),
-    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+    transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 ])
-
 #Define datapath aswell as do train test split and create train test loaders
 data_path = "/home/muneeb/Desktop/zuha/watermark_dataset"
 dataset = datasets.ImageFolder(root=data_path, transform=transform)
