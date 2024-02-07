@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "tools/test.py", line 6, in <module>
+    sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+NameError: name 'sys' is not defined

@@ -1,0 +1,8 @@
+
+Test batch 0 Accuracy: 0.3125
+Traceback (most recent call last):
+  File "tools/test.py", line 33, in <module>
+    test_model(predictions, true_labels)
+  File "tools/test.py", line 27, in test_model
+    wandb.log({"Test Accuracy": accuracy})
+NameError: name 'accuracy' is not defined

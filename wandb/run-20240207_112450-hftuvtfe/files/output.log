@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "tools/train.py", line 32, in <module>
+    optimizer = optim.Adam(model.parameters(), lr=0.0001)
+NameError: name 'model' is not defined

@@ -1,0 +1,206 @@
+{
+    "os": "Linux-5.15.0-92-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-02-07T07:49:39.681461",
+    "startedAt": "2024-02-07T07:49:38.373595",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "tools/train.py",
+    "codePathLocal": "tools/train.py",
+    "codePath": "tools/train.py",
+    "host": "nash-m5",
+    "username": "muneeb",
+    "executable": "/home/muneeb/Desktop/zuha/.env/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2895.07228125,
+        "min": 800.0,
+        "max": 4937.5
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4347.889,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1088.568,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1094.573,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 1230.925,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1409.619,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3000.0,
+            "min": 800.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1824.7165718078613,
+            "used": 1728.1981086730957
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.60425567626953
+    }
+}

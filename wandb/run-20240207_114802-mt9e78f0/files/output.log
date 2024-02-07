@@ -1,0 +1,56 @@
+Test batch 0 Accuracy: 0.75
+Test batch 1 Accuracy: 0.71875
+Test batch 2 Accuracy: 0.78125
+Test batch 3 Accuracy: 0.8125
+Test batch 4 Accuracy: 0.59375
+Test batch 5 Accuracy: 0.90625
+Test batch 6 Accuracy: 0.78125
+Test batch 7 Accuracy: 0.75
+Test batch 8 Accuracy: 0.8125
+Test batch 9 Accuracy: 0.78125
+Test batch 10 Accuracy: 0.8125
+Test batch 11 Accuracy: 0.75
+Test batch 12 Accuracy: 0.65625
+Test batch 13 Accuracy: 0.84375
+Test batch 14 Accuracy: 0.84375
+Test batch 15 Accuracy: 0.65625
+Test batch 16 Accuracy: 0.8125
+Test batch 17 Accuracy: 0.90625
+Test batch 18 Accuracy: 0.78125
+Test batch 19 Accuracy: 0.8125
+Test batch 20 Accuracy: 0.78125
+Test batch 21 Accuracy: 0.84375
+Test batch 22 Accuracy: 0.6875
+Test batch 23 Accuracy: 0.90625
+Test batch 24 Accuracy: 0.625
+Test batch 25 Accuracy: 0.78125
+Test batch 26 Accuracy: 0.875
+Test batch 27 Accuracy: 0.84375
+Test batch 28 Accuracy: 0.8125
+Test batch 29 Accuracy: 0.625
+Traceback (most recent call last):
+  File "tools/test.py", line 33, in <module>
+    test_model(predictions, true_labels)
+  File "tools/test.py", line 18, in test_model
+    for batch_idx, (data, labels) in enumerate(test_loader):
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 399, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 399, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 229, in __getitem__
+    sample = self.loader(path)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 268, in default_loader
+    return pil_loader(path)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 248, in pil_loader
+    return img.convert("RGB")
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/PIL/Image.py", line 922, in convert
+    self.load()
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/PIL/ImageFile.py", line 291, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt

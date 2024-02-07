@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "tools/train.py", line 34, in <module>
+    train_model(epochs, criterion, optimizer)
+  File "tools/train.py", line 21, in train_model
+    data, labels = data.to(device), labels.to(device)
+NameError: name 'device' is not defined

@@ -1,0 +1,214 @@
+Train batch 0: Loss --- 0.6973018646240234
+Train batch 1: Loss --- 0.6309537887573242
+Train batch 2: Loss --- 0.6366673707962036
+Train batch 3: Loss --- 0.6342411041259766
+Train batch 4: Loss --- 0.6095473170280457
+Train batch 5: Loss --- 0.5871374011039734
+Train batch 6: Loss --- 0.5978552103042603
+Train batch 7: Loss --- 0.5879679322242737
+Train batch 8: Loss --- 0.5724432468414307
+Train batch 9: Loss --- 0.4935857355594635
+Train batch 10: Loss --- 0.6121492385864258
+Train batch 11: Loss --- 0.5906258225440979
+Train batch 12: Loss --- 0.5594366788864136
+Train batch 13: Loss --- 0.6868018507957458
+Train batch 14: Loss --- 0.5109444260597229
+Train batch 15: Loss --- 0.4269188344478607
+Train batch 16: Loss --- 0.6235686540603638
+Train batch 17: Loss --- 0.4682633876800537
+Train batch 18: Loss --- 0.5991594791412354
+Train batch 19: Loss --- 0.431573748588562
+Train batch 20: Loss --- 0.6179638504981995
+Train batch 21: Loss --- 0.44936853647232056
+Train batch 22: Loss --- 0.3985639214515686
+Train batch 23: Loss --- 0.4588308036327362
+Train batch 24: Loss --- 0.4071205258369446
+Train batch 25: Loss --- 0.5725881457328796
+Train batch 26: Loss --- 0.499066025018692
+Train batch 27: Loss --- 0.49531295895576477
+Train batch 28: Loss --- 0.6031639575958252
+Train batch 29: Loss --- 0.4528737962245941
+Train batch 30: Loss --- 0.6511657238006592
+Train batch 31: Loss --- 0.4751533269882202
+Train batch 32: Loss --- 0.3521663546562195
+Train batch 33: Loss --- 0.3755514919757843
+Train batch 34: Loss --- 0.4155671298503876
+Train batch 35: Loss --- 0.5146689414978027
+Train batch 36: Loss --- 0.3994607627391815
+Train batch 37: Loss --- 0.5928391814231873
+Train batch 38: Loss --- 0.4506317377090454
+Train batch 39: Loss --- 0.4865236282348633
+Train batch 40: Loss --- 0.4679626226425171
+Train batch 41: Loss --- 0.5778210163116455
+Train batch 42: Loss --- 0.3681318163871765
+Train batch 43: Loss --- 0.3358888030052185
+Train batch 44: Loss --- 0.5066900253295898
+Train batch 45: Loss --- 0.4482685327529907
+Train batch 46: Loss --- 0.37144720554351807
+Train batch 47: Loss --- 0.436159610748291
+Train batch 48: Loss --- 0.5179938077926636
+Train batch 49: Loss --- 0.4579346776008606
+Train batch 50: Loss --- 0.46786820888519287
+Train batch 51: Loss --- 0.42784327268600464
+Train batch 52: Loss --- 0.4270794093608856
+Train batch 53: Loss --- 0.4542112350463867
+Train batch 54: Loss --- 0.687353253364563
+Train batch 55: Loss --- 0.43155932426452637
+Train batch 56: Loss --- 0.49807658791542053
+Train batch 57: Loss --- 0.4052952527999878
+Train batch 58: Loss --- 0.3791497051715851
+Train batch 59: Loss --- 0.3707208037376404
+Train batch 60: Loss --- 0.419097363948822
+Train batch 61: Loss --- 0.4073854684829712
+Train batch 62: Loss --- 0.7978911995887756
+Train batch 63: Loss --- 0.32813847064971924
+Train batch 64: Loss --- 0.4338783025741577
+Train batch 65: Loss --- 0.30909082293510437
+Train batch 66: Loss --- 0.43644171953201294
+Train batch 67: Loss --- 0.33370113372802734
+Train batch 68: Loss --- 0.3858949542045593
+Train batch 69: Loss --- 0.390548974275589
+Train batch 70: Loss --- 0.5318929553031921
+Train batch 71: Loss --- 0.41285574436187744
+Train batch 72: Loss --- 0.7200822830200195
+Train batch 73: Loss --- 0.39672136306762695
+Train batch 74: Loss --- 0.24721431732177734
+Train batch 75: Loss --- 0.7639821767807007
+Train batch 76: Loss --- 0.35989877581596375
+Train batch 77: Loss --- 0.5556058883666992
+Train batch 78: Loss --- 0.2717108428478241
+Train batch 79: Loss --- 0.4706844091415405
+Train batch 80: Loss --- 0.34793415665626526
+Train batch 81: Loss --- 0.5312342047691345
+Train batch 82: Loss --- 0.46364039182662964
+Train batch 83: Loss --- 0.42797961831092834
+Train batch 84: Loss --- 0.519314169883728
+Train batch 85: Loss --- 0.4320183992385864
+Train batch 86: Loss --- 0.5083382725715637
+Train batch 87: Loss --- 0.4917367398738861
+Train batch 88: Loss --- 0.34299808740615845
+Train batch 89: Loss --- 0.3996477723121643
+Train batch 90: Loss --- 0.4311138689517975
+Train batch 91: Loss --- 0.3547649085521698
+Train batch 92: Loss --- 0.48914313316345215
+Train batch 93: Loss --- 0.41224029660224915
+Train batch 94: Loss --- 0.5107973217964172
+Train batch 95: Loss --- 0.3944886326789856
+Train batch 96: Loss --- 0.4542839825153351
+Train batch 97: Loss --- 0.3608146607875824
+Train batch 98: Loss --- 0.332537978887558
+Train batch 99: Loss --- 0.38552507758140564
+Train batch 100: Loss --- 0.5237462520599365
+Train batch 101: Loss --- 0.5103971362113953
+Train batch 102: Loss --- 0.3501267433166504
+Train batch 103: Loss --- 0.49001798033714294
+Train batch 104: Loss --- 0.4139978885650635
+Train batch 105: Loss --- 0.43318629264831543
+Train batch 106: Loss --- 0.3945237398147583
+Train batch 107: Loss --- 0.3508532643318176
+Train batch 108: Loss --- 0.3198947012424469
+Train batch 109: Loss --- 0.41566795110702515
+Train batch 110: Loss --- 0.2992005944252014
+Train batch 111: Loss --- 0.4485068619251251
+Train batch 112: Loss --- 0.3124881088733673
+Train batch 113: Loss --- 0.34348195791244507
+Train batch 114: Loss --- 0.4121643900871277
+Train batch 115: Loss --- 0.44729945063591003
+Train batch 116: Loss --- 0.4622781276702881
+Train batch 117: Loss --- 0.41160041093826294
+Train batch 118: Loss --- 0.49021604657173157
+Train batch 119: Loss --- 0.3865608274936676
+Train batch 120: Loss --- 0.25514674186706543
+Train batch 121: Loss --- 0.3002089560031891
+Train batch 122: Loss --- 0.5279607176780701
+Train batch 123: Loss --- 0.38270303606987
+Train batch 124: Loss --- 0.4034281075000763
+Train batch 125: Loss --- 0.47795337438583374
+Train batch 126: Loss --- 0.2748885452747345
+Train batch 127: Loss --- 0.3777073621749878
+Train batch 128: Loss --- 0.4356270134449005
+Train batch 129: Loss --- 0.4752131700515747
+Train batch 130: Loss --- 0.41512733697891235
+Train batch 131: Loss --- 0.3796318471431732
+Train batch 134: Loss --- 0.45416557788848877
+Train batch 135: Loss --- 0.3691498935222626
+Train batch 136: Loss --- 0.640744149684906
+Train batch 137: Loss --- 0.34776630997657776
+Train batch 138: Loss --- 0.6196027398109436
+Train batch 139: Loss --- 0.5759194493293762
+Train batch 140: Loss --- 0.3136918842792511
+Train batch 145: Loss --- 0.24015203118324287
+Train batch 146: Loss --- 0.6097995638847351
+Train batch 147: Loss --- 0.38479793071746826
+Train batch 148: Loss --- 0.3908065855503082
+Train batch 156: Loss --- 0.37734362483024597
+Train batch 157: Loss --- 0.38099902868270874
+Train batch 156: Loss --- 0.37734362483024597
+Train batch 167: Loss --- 0.49358752369880676
+Train batch 178: Loss --- 0.28110384941101074
+Train batch 189: Loss --- 0.32045623660087585
+Train batch 189: Loss --- 0.32045623660087585
+Train batch 200: Loss --- 0.37997159361839294
+Train batch 211: Loss --- 0.46009996533393864
+Train batch 222: Loss --- 0.30694779753685864
+Train batch 233: Loss --- 0.43389564752578735
+Train batch 233: Loss --- 0.43389564752578735
+Train batch 244: Loss --- 0.31156298518180847
+Train batch 255: Loss --- 0.27821186184883127
+Train batch 266: Loss --- 0.26277148723602295
+Train batch 277: Loss --- 0.58022803068161015
+Train batch 277: Loss --- 0.58022803068161015
+Train batch 288: Loss --- 0.16108462214469915
+Train batch 299: Loss --- 0.39797767996788025
+Train batch 310: Loss --- 0.34027111530303955
+Train batch 321: Loss --- 0.40148219466209415
+Train batch 7: Loss --- 0.1812174171209335315
+Train batch 7: Loss --- 0.1812174171209335315
+Train batch 18: Loss --- 0.323923021554946915
+Train batch 29: Loss --- 0.209483206272125245
+Train batch 40: Loss --- 0.294771611690521245
+Train batch 40: Loss --- 0.294771611690521245
+Train batch 51: Loss --- 0.260086655616760255
+Train batch 62: Loss --- 0.274563282728195255
+Train batch 73: Loss --- 0.193400830030441285
+Train batch 84: Loss --- 0.174237385392189035
+Train batch 84: Loss --- 0.174237385392189035
+Train batch 95: Loss --- 0.282136112451553345
+Train batch 106: Loss --- 0.30151480436325073
+Train batch 117: Loss --- 0.39035385847091675
+Train batch 128: Loss --- 0.30686983466148376
+Train batch 128: Loss --- 0.30686983466148376
+Train batch 139: Loss --- 0.38045805692672736
+Train batch 150: Loss --- 0.56050640344619756
+Train batch 161: Loss --- 0.41039925813674927
+Train batch 161: Loss --- 0.41039925813674927
+Train batch 172: Loss --- 0.47489479184150696
+Train batch 181: Loss --- 0.28192332386970526
+Train batch 192: Loss --- 0.35864725708961487
+Train batch 192: Loss --- 0.35864725708961487
+Traceback (most recent call last):
+  File "tools/train.py", line 36, in <module>
+    train_model(epochs, criterion, optimizer)
+  File "tools/train.py", line 18, in train_model
+    for batch_idx, (data, labels) in enumerate(train_loader):
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 399, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 399, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 229, in __getitem__
+    sample = self.loader(path)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 268, in default_loader
+    return pil_loader(path)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 248, in pil_loader
+    return img.convert("RGB")
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/PIL/Image.py", line 934, in convert
+    return self.copy()
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/PIL/Image.py", line 1192, in copy
+    return self._new(self.im.copy())
+KeyboardInterrupt

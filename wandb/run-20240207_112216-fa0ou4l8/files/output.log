@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "tools/train.py", line 30, in <module>
+    criterion = nn.CrossEntropyLoss()
+NameError: name 'nn' is not defined

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "tools/train.py", line 35, in <module>
+    train_model(epochs, criterion, optimizer)
+  File "tools/train.py", line 21, in train_model
+    outputs = model(data)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/muneeb/Desktop/zuha/models/model.py", line 27, in forward
+    x = self.pool(torch.relu(self.conv1(x)))
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

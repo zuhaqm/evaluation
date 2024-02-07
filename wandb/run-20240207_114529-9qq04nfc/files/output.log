@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "tools/test.py", line 31, in <module>
+    test_model(predictions, true_labels)
+  File "tools/test.py", line 17, in test_model
+    data, labels = data.to(device), labels.to(device)
+NameError: name 'device' is not defined

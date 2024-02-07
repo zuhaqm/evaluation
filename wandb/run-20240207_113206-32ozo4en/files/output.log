@@ -1,0 +1,38 @@
+Train batch 0: Loss --- 0.7053796648979187
+Train batch 1: Loss --- 0.682723879814148
+Train batch 2: Loss --- 0.6727719306945801
+Train batch 3: Loss --- 0.6821738481521606
+Train batch 4: Loss --- 0.6330351233482361
+Train batch 5: Loss --- 0.6398017406463623
+Traceback (most recent call last):
+  File "tools/train.py", line 34, in <module>
+    train_model(epochs, criterion, optimizer)
+  File "tools/train.py", line 20, in train_model
+    for batch_idx, (data, labels) in enumerate(train_loader):
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 399, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 399, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/datasets/folder.py", line 231, in __getitem__
+    sample = self.transform(sample)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 354, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 467, in resize
+    return F_pil.resize(img, size=output_size, interpolation=pil_interpolation)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py", line 250, in resize
+    return img.resize(tuple(size[::-1]), interpolation)
+  File "/home/muneeb/Desktop/zuha/.env/lib/python3.8/site-packages/PIL/Image.py", line 2200, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
